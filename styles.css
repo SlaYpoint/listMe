@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+:root{
+    --primary :#7C3AED;
+    --red : #DC2626;
+    --grey: #6B7280;
+    --grey-light :#F9FAFB ;
+}
+
+body{
+    padding : 0;
+    margin : 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+h2{
+    text-transform: capitalize;
+}
+
+.container{
+    padding : 0rem 1rem;
+}
+
+.container--center{
+    max-width: 750px;
+    margin: auto;
+    padding: 1.5rem 2rem;
+}
+
+header{
+    background: var(--primary);
+    color: white;
+    display: flex;
+    justify-content: center;
+
+    border-bottom-left-radius: 0.5rem;
+}
+
+.searchBar{
+    padding: 0rem 1rem;
+    margin: 1rem 2rem;
+    height: 50px;
+    width: 200px;
+    border: transparent;
+    text-align: center;
+}
+
+section{
+    background: var(--grey-light);
+    padding: 0.5rem 1.5rem;
+    border: 0.5px solid var(--grey);
+}
+
+#addItem{
+    height: 28px;
+    background: var(--primary);
+    color: white;
+    border: transparent;
+    border-radius: 0.5rem;
+    text-transform: uppercase;
+}
+
+.list--noBullet{
+    list-style: none;
+}
+
+.list--item{
+    padding: 0.5rem 1rem;
+    border: 0.5px solid  var(--grey);
+    display: flex;
+    justify-content: space-between;
+}
+
+.list--item--inline{
+    display: inline;
+}
+
+.delete__button{
+    background: var(--red);
+    color: white;
+    border: transparent;
+    padding: 0.25rem 0.5rem;
+}
+
+/* .link{
+    box-sizing: border-box;
+    text-decoration: none;
+    padding : 0.5rem 1rem;
+}
+
+footer{
+    background: var(--primary);
+    padding: 1.5rem 1rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 0.5rem;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+footer ul{
+    padding-inline-start: 0px;
+}
+
+footer .link{
+    color: white;
+} */
