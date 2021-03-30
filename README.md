@@ -1,0 +1,14 @@
+# listMe
+
+A simple list maker made using HTML, CSS and JavaScript
+
+## Live
+<p align="center">
+    <img src="assets/view.gif" alt="listMe">
+</p>
+
+## Functionalities
+1. Add items
+2. Remove items
+3. Search items
+
