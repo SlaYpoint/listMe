@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>listMe</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="container">
+       <h1>listMe</h1>
+       <input class="searchBar" type="text" id="filter" placeholder="Search items...">
+    </header>
+    <!-- </header> -->
+
+    <div class="container container--center">
+        <section>
+            <h2>Add items</h2>
+            <form class="formContainer" id="addForm">
+                <input type="text" id="item">
+                <input type="submit" id="addItem" value="Add">
+            </form>
+            <h2>Items</h2>
+            <ul class="list--noBullet" id="itemList">
+                <li class="list--item">
+                    Item 1<button class="delete__button">X</button>
+                </li> <li class="list--item">
+                    Item 2<button class="delete__button">X</button>
+                </li>
+                <li class="list--item">
+                    Item 3<button class="delete__button">X</button>
+                </li>
+            </ul>
+        </section>
+    </div>
+
+    <!-- <footer>
+        <p>Find me on</p>
+        <ul class="list--nonBullet">
+            <li class="list--item--inline">
+                <a class="link" href="#">LinkedIn</a>
+            </li>
+            <li class="list--item--inline">
+                <a class="link" href="https://twitter.com/mallyaAdi">Twitter</a>
+            </li>
+            <li class="list--item--inline">
+                <a class="link" href="https://github.com/SlaYpoint">Github</a>
+            </li>
+        </ul>
+    </footer> -->
+    <script type="text/javascript" src="index.js"></script>
+</body>
+</html>
