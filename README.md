@@ -11,4 +11,5 @@ A simple list maker made using HTML, CSS and JavaScript
 1. Add items
 2. Remove items
 3. Search items
+4. Stores item to local storage
 
