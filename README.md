@@ -13,3 +13,7 @@ A simple list maker made using HTML, CSS and JavaScript
 3. Search items
 4. Stores item to local storage
 
+## Stack
+1. HTML
+2. CSS
+3. Vanilla JS
